@@ -25,16 +25,16 @@ The Vermaas lab, housed within the [Plant Research Laboratory](https://prl.natsc
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/bpsimagecontest-sm.jpeg" alt="Lipid bilayers are semipermeable to small molecules, such as the guaiacol molecules shown here. To emphasize the biological context, EM images of the bacteria have been overlaid onto the model rendering." />
         </div>
-        <div class="item active">
+        <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/lignindeconstruction3.gif" alt="Using machine-learned atomic potentials, we can track deconstruction events in biomolecules, such as the lignin polymer here." />
         </div>
-        <div class="item active">
+        <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/carboxysomesurface-sm.jpeg" alt="One of the nanostructures we study is the carboxysome, which is composed of a protein shell around critical metabolic enzymes to trap intermediate molecules and increase catalytic efficiency." />
         </div>
-        <div class="item active">
+        <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/photosyntheticreactioncenterandcofactors-sm.jpeg" alt="The photosynthetic reaction center of Rhodobacter sphaeroides is an example where multiple research focuses intersect. The complex is composed of 3 protein subunits and is membrane embedded. We want to apply new computational approaches to understand and improve the photosynthetic processes." />
         </div>
-        <div class="item active">
+        <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/coarsedemo-sm.jpeg" alt="Coarse grained cell wall model, with green beads representing cellulose fibrils, blue beads representing hemicellulose strands, and orange beads for the lignin." />
         </div>
     </div>
