@@ -11,6 +11,7 @@ permalink: /publications/
 
 (For a full list of Josh's publications, go to [Google Scholar](https://scholar.google.com/citations?user=WSWCJ-gAAAAJ), [ORCID](https://orcid.org/0000-0003-3139-6469))
 
+## Highlights
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
@@ -48,7 +49,7 @@ permalink: /publications/
 {% endif %}
 
 <p> &nbsp; </p>
-
+## Full List
 
 {% for publi in site.data.publist %}
 
