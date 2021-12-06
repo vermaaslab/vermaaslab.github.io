@@ -1,7 +1,7 @@
 - title: "Investigating Reversibility in Unwrapping Schemes for Molecular Dynamics Simulations"
   image: displacement.png
   authors: M Kulke and JV Vermaas
-  description: We developed a new scheme for doing PBC unwrapping, which is correct even for long simulations. We develop code implementations to apply this to <a href=https://github.com/kulkem/qwrap.git>qwrap<\a>, <a href=https://github.com/kulkem/pbctools.git>pbctools<\a>, and fastpbc.
+  description: We developed a new scheme for doing PBC unwrapping, which is correct even for long simulations. We develop code implementations to apply this to [qwrap](https://github.com/kulkem/qwrap.git), [pbctools](https://github.com/kulkem/pbctools.git), and fastpbc.
   link:
     url: https://arxiv.org/abs/2111.12052
     display: Preprint on arXiv
@@ -15,7 +15,7 @@
     url: https://www.science.org/doi/10.1126/sciadv.abl8213
     display:  Science Advances 7, 49 (2021)
   highlight: 1
-  news2: This work has been featured by the <a href=https://www.bbc.com/news/health-59418123>BBC<\a> and <a href=https://www.eurekalert.org/news-releases/936586>EurekaAlert<\a>.
+  news2: This work has been featured by the [BBC](https://www.bbc.com/news/health-59418123) and [EurekaAlert](https://www.eurekalert.org/news-releases/936586).
 
 #- title: "Fabrication of on-chip probes for double-tip scanning tunneling microscopy"
 #  image: TBG_ARPES.png
