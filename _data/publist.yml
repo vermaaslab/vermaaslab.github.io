@@ -1,3 +1,11 @@
+- title: "Investigating Reversibility in Unwrapping Schemes for Molecular Dynamics Simulations"
+  authors: M Kulke and JV Vermaas
+  description: We developed a new scheme for doing PBC unwrapping, which is correct even for long simulations. We develop code implementations to apply this to <a href=https://github.com/kulkem/qwrap.git>qwrap</a>, <a href=https://github.com/kulkem/pbctools.git>pbctools</a>, and fastpbc.
+  link:
+    url: https://arxiv.org/abs/2111.12052
+    display: Preprint on arXiv
+  highlight: 0
+
 - title: "ChAdOx1 interacts with CAR and PF4 with implications for thrombosis with thrombocytopenia syndrome"
   image: chaddox.png
   authors: AT Baker, RJ Boyd, D Sarkar, A Teijeria-Crespo, CK Chan, E Bates, K Waraich, J Vant, E Wilson, CD Truong, M Lipka-Lloyd, P Fromme, J Vermaas, D Williams, L Machiesky, M Heurich, BM Nagalo, L Coughlan, S Umlauf, P-L Chui, PJ Rizkallah, TS Cohen, AL Parker, A Singharoy, and MJ Borad
