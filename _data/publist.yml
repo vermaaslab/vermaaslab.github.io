@@ -16,6 +16,14 @@
   highlight: 0
   news2: Nature has a [companion article](https://healthcommunity.nature.com/posts/huntingtin-s-new-interaction-site-a-tale-of-dnajb1-and-htt-s-proline-rich-domain) that is less technical than a full-blown journal article.
 
+- title: "Exploring cryo-electron microscopy with molecular dynamics"
+  authors: JW Vant, D Sarkar, J Nguyen, AT Baker, JV Vermaas, A Singharoy
+  description: Together with the Singharoy lab at ASU, we wrote a review on how cryo-EM and MD can be used profitably together.
+  link:
+    url: https://doi.org/10.1042/BST20210485
+    display: Biochemical Society Transactions 50 (1) 569-581 (2022)
+  highlight: 0
+
 - title: "Investigating Reversibility in Unwrapping Schemes for Molecular Dynamics Simulations"
   image: displacement.png
   authors: M Kulke and JV Vermaas
