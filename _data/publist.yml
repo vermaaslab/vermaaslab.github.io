@@ -1,3 +1,21 @@
+- title: "Lignin Nanoparticle Morphology Depends on Polymer Properties and Solvent Composition: an Experimental and Computational Study"
+  image: ligninnanoparticle.png
+  authors: RCA Ela, S Raza, PA Heiden, JV Vermaas, and RG Ong
+  description: Together with collaborators at MTU, we studied how lignin nanoparticles would form under different solvent conditions.
+  link:
+    url: https://doi.org/10.1021/acsapm.2c00854
+    display: ACS Applied Polymer Materials (2022)
+  highlight: 1
+
+- title: "Identification of a HTT-specific binding motif in DNAJB1 essential for suppression and disaggregation of HTT"
+  authors: SM Ayala Mariscal, ML Pigazzini, Y Richter, M Özel, IL Grothaus, J Protze, K Ziege, M Kulke, M ElBediwi, JV Vermaas, L Colombi Ciacchi, S Köppen, F Liu, and J Kirstein
+  description: Together with collaborators in Germany, we refined a model for an intrinsicly disordered protein involved in Huntington's disease.
+  link:
+    url: https://www.nature.com/articles/s41467-022-32370-5
+    display: Nature Communications 13, 4692 (2022)
+  highlight: 0
+  news2: Nature has a [companion article](https://healthcommunity.nature.com/posts/huntingtin-s-new-interaction-site-a-tale-of-dnajb1-and-htt-s-proline-rich-domain) that is less technical than a full-blown journal article.
+
 - title: "Investigating Reversibility in Unwrapping Schemes for Molecular Dynamics Simulations"
   image: displacement.png
   authors: M Kulke and JV Vermaas
@@ -16,6 +34,7 @@
     display:  Science Advances 7, 49 (2021)
   highlight: 1
   news2: This work has been featured by the [BBC](https://www.bbc.com/news/health-59418123), [EurekaAlert](https://www.eurekalert.org/news-releases/936586), and [MSU](https://natsci.msu.edu/news/scientists-discover-potential-mechanism-of-ultra-rare-blood-clots-linked-to-adenovirus-covid-19-vaccines/).
+
 
 #- title: "Fabrication of on-chip probes for double-tip scanning tunneling microscopy"
 #  image: TBG_ARPES.png
