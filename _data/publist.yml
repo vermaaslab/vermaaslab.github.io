@@ -30,8 +30,8 @@
   authors: M Kulke and JV Vermaas
   description: We developed a new scheme for doing PBC unwrapping, which is correct even for long simulations. We develop code implementations to apply this to [qwrap](https://github.com/kulkem/qwrap.git), [pbctools](https://github.com/kulkem/pbctools.git), and fastpbc.
   link:
-    url: https://arxiv.org/abs/2111.12052
-    display: Preprint on arXiv
+    url: https://pubs.acs.org/doi/10.1021/acs.jctc.2c00327
+    display: Journal of Chemical Theory and Computation (2022)
   highlight: 1
 
 - title: "ChAdOx1 interacts with CAR and PF4 with implications for thrombosis with thrombocytopenia syndrome"
