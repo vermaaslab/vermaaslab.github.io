@@ -1,3 +1,12 @@
+- title: "LongBondEliminator: A Molecular Simulation Tool to Remove Ring Penetrations in Biomolecular Simulation Systems"
+  image: lbe.gif
+  authors: D Sarkar, M Kulke and, JV Vermaas
+  description: This is a cool tool to help relax away ring penetration artifacts that might arise when assembling a molecular simulation system.
+  link:
+    url: https://doi.org/10.3390/biom13010107
+    display: Biomolecules 13 (1) 107 (2023)
+  highlight: 1
+
 - title: "Lignin Nanoparticle Morphology Depends on Polymer Properties and Solvent Composition: an Experimental and Computational Study"
   image: ligninnanoparticle.png
   authors: RCA Ela, S Raza, PA Heiden, JV Vermaas, and RG Ong
