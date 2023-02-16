@@ -1,10 +1,19 @@
+- title: "Characterization of promoter elements of isoprene‐responsive genes and the ability of isoprene to bind START domain transcription factors"
+  authors: SM Weraduwage, A Sahu, M Kulke, JV Vermaas, and TD Sharkey
+  description: In collaboration with the Sharkey laboratory, we were investigated what the potential mechanism of action for isoprene binding to proteins may be.
+
+  link:
+    url: https://doi.org/10.1002/pld3.483
+    display: Plant Direct 7 (2) e483 (2023)
+  highlight: 0
+
 - title: "Plant Terpenoid Permeability through Biological Membranes Explored via Molecular Simulations"
   image: terpenoidperm.jpg
   authors: S Raza, M Miller, B Hamberger, and JV Vermaas
   description: With this research, we explore how diterpenes permeate across biological membranes. We find that diterpenes permeate passively at large rates across bilayers. Intriguingly, we think that the permeation may be optimized for plant-like membranes.
   link:
     url: https://doi.org/10.1021/acs.jpcb.2c07209
-    display: Journal of Physical Chemistry B (2023)
+    display: Journal of Physical Chemistry B 127 (5) 1144-1157 (2023)
   highlight: 1
 
 - title: "LongBondEliminator: A Molecular Simulation Tool to Remove Ring Penetrations in Biomolecular Simulation Systems"
