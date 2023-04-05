@@ -1,3 +1,20 @@
+- title: "Diffusion in intact secondary cell wall models of plants at different equilibrium moisture content"
+  image: iondiffusionsystem.png
+  authors: D Sarkar, L Bu, JE Jakes, JK Zieba, ID Kaufman, MF Crowley, PN Ciesielski, and JV Vermaas
+  description: In collaboration with a diverse research group from NREL and the Forest Products Lab, we measured diffusion for ions and cell wall components within models for secondary cell walls at different hydration levels. Unsurprisingly, more water to lubricate the cell wall raises diffusion. However, we predict a moisutre-induced glass transition at around 10-15% water content in secondary plant cell walls.
+  link:
+    url: https://doi.org/10.1016/j.tcsw.2023.100105
+    display: The Cell Surface 9 100105 (2023)
+  highlight: 1
+
+- title: "Atomistic origins of biomass recalcitrance in organosolv pretreatment"
+  authors: D Sarkar, IJ Santiago, and JV Vermaas
+  description: As part of a SROP summer experience, we evaluated how lignin-cellulose interactions are perturbed by alternative organic solvent environments.
+  link:
+    url: https://doi.org/10.1016/j.ces.2023.118587
+    display: Chemical Engineering Science 272 118587 (2023)
+  highlight: 0
+
 - title: "Characterization of promoter elements of isoprene‐responsive genes and the ability of isoprene to bind START domain transcription factors"
   authors: SM Weraduwage, A Sahu, M Kulke, JV Vermaas, and TD Sharkey
   description: In collaboration with the Sharkey laboratory, we were investigated what the potential mechanism of action for isoprene binding to proteins may be.
