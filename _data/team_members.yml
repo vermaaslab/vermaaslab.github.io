@@ -7,15 +7,6 @@
   education2: PhD in Biophysics with <a href="http://csbmb.beckman.illinois.edu/">Emad Tajkhorshid</a>
   education3: Director's Postdoctoral Fellow, National Renewable Energy Laboratory with <a href="https://www.nrel.gov/research/staff/michael-crowley.html">Mike Crowley</a> and <a href="https://www.nrel.gov/research/staff/gregg-beckham.html">Gregg Beckham</a>
 
-- name: Martin Kulke
-  photo: martin.png
-  info: Postdoc, started Jan. 2021
-  email: kulkemar@msu.edu
-  number_educ: 3
-  education1: BS Chemistry, TU Dresden
-  education2: MS Chemistry, TU Dresden
-  education3: PhD in Biophysical Chemistry, University of Greifswald
-
 - name: Saad Raza
   photo: saad.png
   info: Postdoc, started Jan. 2021
@@ -40,3 +31,7 @@
   email: borendun@msu.edu
   number_educ: 1
   education1: BS University of Nevada-Reno
+
+- name: Neetu Yadav
+  info: Postdoc, started July 2023
+  email: yadavne2@msu.edu
