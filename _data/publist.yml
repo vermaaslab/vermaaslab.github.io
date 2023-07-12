@@ -1,3 +1,13 @@
+- title: "Nanoscale simulation of the thylakoid membrane response to extreme temperatures"
+  image: pcehighlight.png
+  authors: M Kulke, SM Weraduwage, TD Sharkey, and JV Vermaas
+  description: This work discusses the dynamic nature of the thylakoid membrane in response to temperature changes and its lipid composition. The study investigates the effects of temperature and isoprene content on the structure and dynamics of the membrane using molecular dynamics simulations. The results suggest that temperature affects various properties of the membrane, while isoprene concentration does not have a significant thermoprotective effect, and isoprene easily permeates the membrane.
+  link:
+    url: https://doi.org/10.1111/pce.14609
+    display: Plant Cell & Environment 46 (8) 2273-2589 (2023)
+  highlight: 1
+  news2: This work was featured as a [PRL news article](https://prl.natsci.msu.edu/news-events/news/investigating-the-impacts-of-temperature-on-the-thylakoid-membrane-insights-from-computer-simulations/).
+
 - title: "Diffusion in intact secondary cell wall models of plants at different equilibrium moisture content"
   image: iondiffusionsystem.png
   authors: D Sarkar, L Bu, JE Jakes, JK Zieba, ID Kaufman, MF Crowley, PN Ciesielski, and JV Vermaas
