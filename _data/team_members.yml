@@ -33,5 +33,10 @@
   education1: BS University of Nevada-Reno
 
 - name: Neetu Yadav
+  photo: neetu.jpg
   info: Postdoc, started July 2023
   email: yadavne2@msu.edu
+  number_educ: 3
+  education1: BS Chemistry, University of Lucknow
+  education2: MS Bioinformatics, Banaras Hindu University
+  education3: PhD in Biophysics, Jawaharlal Nehru University
