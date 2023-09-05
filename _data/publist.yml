@@ -1,3 +1,19 @@
+- title: "Adaptive Ensemble Refinement of Protein Structures in High Resolution Electron Microscopy Density Maps with Radical Augmented Molecular Dynamics Flexible Fitting"
+  authors: D Sarkar, H Lee, JW Vant, M Turilli, JV Vermaas, S Jha, and A Singharoy
+  description: This paper walks through a workflow for managing large scale MDFF simulations for adaptive refinement purposes.
+  link:
+    url: https://doi.org/10.1021/acs.jcim.3c00350
+    display: Journal of Chemical Information and Modeling (2023)
+
+- title: "Long-Range Electron Transport Rates Depend on Wire Dimensions in Cytochrome Nanowires"
+  image: nanowiretoc.png
+  authors: M Kulke, DM Olson, J Huang, DM Kramer, and JV Vermaas
+  description: In this paper, we analyze how nanoscale vibrations in a cytochrome nanowire can influence the current carrying ability of these nanowires.
+  link:
+    url: https://doi.org/10.1002/smll.202304013
+    display: Small (2023)
+  highlight: 1
+
 - title: "Nanoscale simulation of the thylakoid membrane response to extreme temperatures"
   image: pcehighlight.png
   authors: M Kulke, SM Weraduwage, TD Sharkey, and JV Vermaas
