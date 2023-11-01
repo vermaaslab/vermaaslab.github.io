@@ -1,3 +1,21 @@
+- title: "Passive permeability controls synthesis for the allelochemical sorgoleone in sorghum root exudate"
+  image: sorgoleonepermeability.png
+  authors: S Raza, TH Sievertsen, S Okumoto, and JV Vermaas
+  description: Based on molecular simulation, we find that sorgoleone, a small molecule made by sorghum, is readily able to transfer from cell to cell using passive membrane permeation.
+  link:
+    url: https://doi.org/10.1016/j.phytochem.2023.113891
+    display: Phytochemistry 217 113891 (2024)
+  -highlight: 1
+  
+- title: "PLAT domain protein 1 (PLAT1/PLAFP) binds to the <i>Arabidopsis thaliana<\i> plasma membrane and inserts a lipid"
+  image: PLAFPbinding.png
+  authors: M Kulke, E Kurtz, DM Boren, DM Olson, AM Koenig, S Hoffmann-Benning, and JV Vermaas
+  description: In this research article, we determine how PLAFP binds to biological membranes, and picks up a lipid, eventually transporting signaling lipids elsewhere in the cell.
+  link:
+    url: https://doi.org/10.1016/j.plantsci.2023.111900
+    display: Plant Science 338 111900 (2024)
+  highlight: 1
+
 - title: "Adaptive Ensemble Refinement of Protein Structures in High Resolution Electron Microscopy Density Maps with Radical Augmented Molecular Dynamics Flexible Fitting"
   authors: D Sarkar, H Lee, JW Vant, M Turilli, JV Vermaas, S Jha, and A Singharoy
   description: This paper walks through a workflow for managing large scale MDFF simulations for adaptive refinement purposes.
@@ -13,6 +31,7 @@
     url: https://doi.org/10.1002/smll.202304013
     display: Small (2023)
   highlight: 1
+  news2: This research was picked up by [MSU Today](https://msutoday.msu.edu/news/2023/wired-in-simulating-how-electrons-move-through-nanowires).
 
 - title: "Nanoscale simulation of the thylakoid membrane response to extreme temperatures"
   image: pcehighlight.png
