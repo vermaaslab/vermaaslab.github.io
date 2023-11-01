@@ -6,8 +6,8 @@
     url: https://doi.org/10.1016/j.phytochem.2023.113891
     display: Phytochemistry 217 113891 (2024)
   -highlight: 1
-  
-- title: "PLAT domain protein 1 (PLAT1/PLAFP) binds to the <i>Arabidopsis thaliana<\i> plasma membrane and inserts a lipid"
+
+- title: "PLAT domain protein 1 (PLAT1/PLAFP) binds to the <i>Arabidopsis thaliana</i> plasma membrane and inserts a lipid"
   image: PLAFPbinding.png
   authors: M Kulke, E Kurtz, DM Boren, DM Olson, AM Koenig, S Hoffmann-Benning, and JV Vermaas
   description: In this research article, we determine how PLAFP binds to biological membranes, and picks up a lipid, eventually transporting signaling lipids elsewhere in the cell.
