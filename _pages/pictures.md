@@ -6,6 +6,9 @@ permalink: /pictures/
 ---
 
 # Group Photos
+<p>Dairy store celebration for the end of the semester<img src="{{ site.url }}{{ site.baseurl }}/images/dairystore.jpeg" class="img-responsive" width="100%" style="float: left" />
+</p>
+
 
 <p>Group photo spring 2024<img src="{{ site.url }}{{ site.baseurl }}/images/groupspring2024.JPG" class="img-responsive" width="100%" style="float: left" />
 </p>
