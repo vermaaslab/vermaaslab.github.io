@@ -6,6 +6,9 @@ permalink: /pictures/
 ---
 
 # Group Photos
+<p>Celebrating babies and new jobs at Georgio's!<img src="{{ site.url }}{{ site.baseurl }}/images/georgios.jpeg" class="img-responsive" width="100%" style="float: left" />
+</p>
+
 <p>Dairy store celebration for the end of the semester<img src="{{ site.url }}{{ site.baseurl }}/images/dairystore.jpeg" class="img-responsive" width="100%" style="float: left" />
 </p>
 
