@@ -1,11 +1,40 @@
+- title: "Comparative Pore Structure and Dynamics for Bacterial Microcompartment Shell Protein Assemblies in Sheets or Shells"
+  image: acsomegabmc.png
+  authors: S Raza, D Sarkar, LJG Chan, J Mae, M Sutter, CJ Petzold, CA Kerfeld, CY Ralston, S Gupta, JV Vermaas
+  description: Comparing molecular simulation to x-ray footprinting mass spectrometry, we determine that flat and curved BMC protein assemblies have similar pore dynamics.
+  link:
+    url: https://doi.org/10.1021/acsomega.4c02406
+    display: ACS Omega (2024)
+  highlight: 1
+  news2: This paper was selected for a cover!
+
+- title: "Adaptative survival of Aspergillus fumigatus to echinocandins arises from cell wall remodeling beyond β−1,3-glucan synthesis inhibition"
+  image: natcomfig6.png
+  authors: M Dickwella Widanage, I Gautam, D Sarkar, F Mentink-Vigier, JV Vermaas, SY Ding, AS Lipton, T Fontaine, JP Latgé, P Wang, and T Wang
+  description: Using NMR together with molecular simulations, we can quantify how fungal cell walls change in response to drug exposure.
+  link:
+    url: https://doi.org/10.1038/s41467-024-50799-8
+    display: Nature Communications 15 6382 (2024)
+  highlight: 1
+  
+
+- title: "The isoprene‐responsive phosphoproteome provides new insights into the putative signalling pathways and novel roles of isoprene"
+  authors: SM Weraduwage, D Whitten, M Kulke, A Sahu, JV Vermaas, and TD Sharkey
+  description: Using docking techniques, we can complement enrichment findings to see if isoprene binds selectively to specific proteins.
+  link:
+    url: https://doi.org/10.1111/pce.14776
+    display: Plant, Cell & Environment 47 1099-1117 (2024)
+  highlight: 0
+
 - title: "Electron transfer in a crystalline cytochrome with four hemes"
   image: crystalmorelight.png
-  authors: W Parson, J Huang, M Kulke, JV Vermaas, DM Kramer
+  authors: W Parson, J Huang, M Kulke, JV Vermaas, and DM Kramer
   description: Using higher level theory than prior papers, we get the order of magnitude but not the temperature dependence right for electron transfer within a nanocrystal.
   link:
     url: https://doi.org/10.1063/5.0186958
     display: Journal of Chemical Physics 160 065101 (2024)
-  highlight: 0
+  highlight: 1
+  news2: This article was chosen for the [journal cover](https://pubs.aip.org/aip/jcp/issue/160/6), and the PRL has a [great story](https://prl.natsci.msu.edu/news-and-events/news/2024-04-something-funky-is-afoot-with-how-electrons-hop.aspx) about this research!
 
 - title: "Passive permeability controls synthesis for the allelochemical sorgoleone in sorghum root exudate"
   image: sorgoleonepermeability.png
