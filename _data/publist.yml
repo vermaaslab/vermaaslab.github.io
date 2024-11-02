@@ -1,3 +1,13 @@
+- title: "Atomic View of Photosynthetic Metabolite Permeability Pathways and Confinement in Synthetic Carboxysome Shells"
+  image: carboxysomecover.png
+  authors: D Sarkar, C Maffeo, M Sutter, A Aksimentiev, CA Kerfeld, JV Vermaas
+  description: Through a combination of classical molecular dynamics simulations and atomic resolution Brownian dynamics, we determine the permeability for carboxysomes to photosynthetic metabolites and the rate of leakage from the carbon concentrating mechanism in cyanobacteria.
+  link:
+    url: https://doi.org/10.1073/pnas.2402277121
+    display: PNAS 121 e2402277121 (2024)
+  highlight: 1
+  news2: Kara did a fantastic [news story](https://prl.natsci.msu.edu/news-and-events/news/2024-11-capturing-the-molecular-choreography-of-carbon-fixation.aspx) on this work!
+
 - title: "Comparative Pore Structure and Dynamics for Bacterial Microcompartment Shell Protein Assemblies in Sheets or Shells"
   image: acsomegabmc.png
   authors: S Raza, D Sarkar, LJG Chan, J Mae, M Sutter, CJ Petzold, CA Kerfeld, CY Ralston, S Gupta, JV Vermaas
