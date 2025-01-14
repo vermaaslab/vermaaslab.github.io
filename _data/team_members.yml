@@ -16,15 +16,6 @@
   education2: MS Bioinformatics, Quaid-i-Azam University Islamabad
   education3: PhD in Bioinformatics, Quaid-i-Azam University Islamabad
 
-- name: Daipayan Sarkar
-  photo: daipayan.jpg
-  info: Postdoc, started May 2021
-  email: sarkarda@msu.edu
-  number_educ: 3
-  education1: BE Mechanical Engineering, University of Mumbai
-  education2: MS Mechanical Engineering, University of Texas at Arlington
-  education3: PhD in Mechanical Engineering, University of Texas at Arlington
-
 - name: Duncan Boren
   photo: duncan.jpg
   info: Graduate Student, started Feb 2022
@@ -47,3 +38,12 @@
   number_educ: 2
   education1: BS Applied Chemistry, Guangdong University of Technology
   education2: MS Chemical Engineering, Guangdong University of Technology
+
+- name: Nitin Singh
+  photo: nitin.png
+  info: Postdoc, started Nov 2024
+  email: singhni8@msu.edu
+  number_educ: 3
+  education1: BT Biotechnology, Dr. APJ Abdul Kalam Technical University
+  education2: MT Chemical Engineering, Visvesvaraya National Institute of Technology
+  education3: PhD Chemical Engineering, Indian Institute of Technology Gandhinagar

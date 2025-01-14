@@ -1,3 +1,20 @@
+- title: "Electrochemical cofactor recycling of bacterial microcompartments"
+  authors: M Sutter, LM Utschig, J Niklas, S Paul, DN Kahan, S Gupta, OG Poluektov, BH Ferlez, NM Tefft, MA TerAvest, DP Hickey, JV Vermaas, CY Ralston, CA Kerfeld
+  description: With a large collaborative effort, we identified a BMC that can transfer electrons across the shell to regenerate metabolic cofactors.
+  link:
+    url: https://doi.org/10.1073/pnas.2414220121
+    display: PNAS 121 e2414220121 (2024)
+  highlight: 0
+  news2: There was a [commentary](https://doi.org/10.1073/pnas.2423449122) that was published along with the paper.
+
+- title: "Increasing thermostability of the key photorespiratory enzyme glycerate 3-kinase by structure-based recombination"
+  authors: LV Roze, A Antoniak, D Sarkar, AH Liepman, M Tejera-Nieves, JV Vermaas, BJ Walker
+  description: Combining molecular simulation with activity assays, we develop more thermotolerant photorespiratory enzymes.
+  link:
+    url: https://doi.org/10.1111/pbi.14508
+    display: Plant Biotechnology Journal
+  highlight: 0
+
 - title: "Atomic View of Photosynthetic Metabolite Permeability Pathways and Confinement in Synthetic Carboxysome Shells"
   image: carboxysomecover.png
   authors: D Sarkar, C Maffeo, M Sutter, A Aksimentiev, CA Kerfeld, JV Vermaas
