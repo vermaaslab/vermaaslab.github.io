@@ -33,6 +33,7 @@
   education3: PhD in Biophysics, Jawaharlal Nehru University
 
 - name: Jinxin Lin
+  photo: jinxin.jpeg
   info: Graduate Student, started Aug 2024
   email: linjinxi@msu.edu
   number_educ: 2
@@ -47,3 +48,9 @@
   education1: BT Biotechnology, Dr. APJ Abdul Kalam Technical University
   education2: MT Chemical Engineering, Visvesvaraya National Institute of Technology
   education3: PhD Chemical Engineering, Indian Institute of Technology Gandhinagar
+
+- name: Siva Naga Sai Damaraju
+  info: Graduate Student, started Feb 2025
+  email: damaraj3@msu.edu
+  number_educ: 1
+  education1: ???
