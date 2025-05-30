@@ -1,3 +1,38 @@
+- title: "Identifying and quantifying membrane interactions of the protein human <i>cis</i>‐prenyltransferase"
+  image: hcispt.png
+  authors: D Boren, S Kredi, E Positselskaya, M Giladi, Y Haitin, JV Vermaas
+  description: Bringing together simulation and experiment, we identify residues involved in protein binding for human cis-prenyltransferase to the membrane.
+  link:
+    url: https://doi.org/10.1002/pro.70167
+    display: Protein Science 34 e70167 (2025)
+  highlight: 1
+  news2: This is the paper that Duncan won the Tomashow Keegstra Award for!
+
+- title: "Synthesis, function, and genetic variation of sorgoleone, the major biological nitrification inhibitor in sorghum"
+  authors: S Okumoto, B Maharjan, N Rajan, J Xi, SR Baerson, WL Rooney, MJ Tomson, DA Odeny, T Yoshihashi, JV Vermaas, GV Subbarao
+  description: Review article on sorgoleone, a natural herbicide made by sorghum.
+  link: 
+    url: https://doi.org/10.1002/csc2.70066
+    diplay: Crop Science 65 e70066 (2025)
+  highlight: 0
+
+- title: "Quantitative Measurement of Molecular Permeability to a Synthetic Bacterial Microcompartment Shell System"
+  authors: EJ Young, H Kirst, ME Dwyer, JV Vermaas, CA Kerfeld
+  description: Combination of timeseries for light emitted by encapsulated luciferases, which gives us a quantitative estimate for permeability for substrates and products. Turns out open shells missing pentameric capping units are about 50x more permeable.
+  link:
+    url: https://doi.org/10.1021/acssynbio.4c00290
+    display: ACS Synth. Biol. 14 1405-1413 (2025)
+  highlight: 0
+  news2: This paper has a really cool [cover](https://pubs.acs.org/toc/asbcd6/14/5) associated with it!
+
+- title: "Structure Characterization of Bacterial Microcompartment Shells via X-ray Scattering and Coordinate Modeling: Evidence for Adventitious Capture of Cytoplasmic Proteins"
+  authors: X Zuo, A Jussupow, NS Ponomarenko, TD Grant, TM Tefft, NS Yadav, KL Range, CY Ralston, MA TerAvest, M Sutter, CA Kerfeld, JV Vermaas, M Feig, DM Tiede
+  description: Really cool work that combines multiple lines of inquiry to show that cargo can be packed into bacterial microcompartments through adventitious means.
+  link:
+    url: https://doi.org/10.1021/acsabm.4c01621
+    display: ACS Appl. Bio Mater. 8 2090-2103 (2025)
+  highlight: 0
+
 - title: "Electrochemical cofactor recycling of bacterial microcompartments"
   authors: M Sutter, LM Utschig, J Niklas, S Paul, DN Kahan, S Gupta, OG Poluektov, BH Ferlez, NM Tefft, MA TerAvest, DP Hickey, JV Vermaas, CY Ralston, CA Kerfeld
   description: With a large collaborative effort, we identified a BMC that can transfer electrons across the shell to regenerate metabolic cofactors.
@@ -12,7 +47,7 @@
   description: Combining molecular simulation with activity assays, we develop more thermotolerant photorespiratory enzymes.
   link:
     url: https://doi.org/10.1111/pbi.14508
-    display: Plant Biotechnology Journal
+    display: Plant Biotechnology Journal 23 454-466 (2025)
   highlight: 0
 
 - title: "Atomic View of Photosynthetic Metabolite Permeability Pathways and Confinement in Synthetic Carboxysome Shells"
