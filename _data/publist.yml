@@ -1,3 +1,38 @@
+- title: "Jojoba LIPID DROPLET-ASSOCIATED PROTEIN 1 facilitates the efficient packaging of wax esters into lipid droplets"
+  authors: P Whitehead, S Raza, M Miklaszewska, E Hornung, C Herrfurth, R Nadella, A Clews, NM Doner, JM Dyer, R Mullen, I Feussner, JV Vermaas, K Chapman
+  description: Delightful collaboration with the Chapman lab at the University of North Texas. We now know more about plant lipid packaging!
+  link:
+    url: http://doi.org/10.1093/plcell/koaf115
+    display: The Plant Cell 37 koaf115 (2025)
+
+- title: "Molecular Modeling and Molecular Dynamics Simulation of a Packed and Intact Bacterial Microcompartment"
+  image: saadcover.jpg
+  authors: S Raza, NS Yadav, A Jussupow, CA Kerfeld, M Feig, JV Vermaas
+  description: Wicked cool simulations of a whole 11M atom BMC system! We learned alot from this research that we think we can apply to further advance catalysis within BMCs.
+  link:
+    url: https://doi.org/10.1021/acs.jpcb.5c05178
+    display: J. Phys. Chem. B 129 12811-12827 (2025)
+  highlight: 1
+  news2: This particular research made the [cover](https://pubs.acs.org/toc/jpcbfk/129/50)!
+
+- title: "Quantifying Chemically Modified Acetylation Induced Changes in the Plant Secondary Cell Wall Structure and Dynamics"
+  image: murtazacellwall.gif
+  authors: M Barkarar, D Sarkar, CG Hunt, JV Vermaas
+  description: Complementary work tracking ion diffusion within plant cell walls after acetylation.
+  link:
+    url: https://pubs.acs.org/doi/10.1021/acs.biomac.5c00391
+    display: Biomacromolecules 26 5645-5656 (2025)
+  highlight: 1
+  news2: This is a great example of undergraduate researchers doing cool work in the lab, as Murtaza has now moved on to bigger and better things!
+
+- title: "Anionic Lipids Regulate the Light-Harvesting Complex 1-Reaction Center Photocycle in Purple Bacteria"
+  authors: OC Fiebig, GP Schmidt, NS Yadav, D Wang, M Nairat, H Tang, Y Ji, V Prima, JN Sturgis, JV Vermaas, D Harris, GS Schlau-Cohen
+  description: Combined experiment and simulation study highlighting how lipids interact at the periphery of reaction centers.
+  link:
+    url: https://doi.org/10.1021/jacs.5c12301
+    display: JACS 147 36706-36716 (2025)
+  highlight: 0
+
 - title: "Identifying and quantifying membrane interactions of the protein human <i>cis</i>‐prenyltransferase"
   image: hcispt.png
   authors: D Boren, S Kredi, E Positselskaya, M Giladi, Y Haitin, JV Vermaas
