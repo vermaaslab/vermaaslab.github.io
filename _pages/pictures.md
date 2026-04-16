@@ -6,6 +6,9 @@ permalink: /pictures/
 ---
 
 # Group Photos
+<p>Group photo spring 2026<img src="{{ site.url }}{{ site.baseurl }}/images/groupapril2026.png" class="img-responsive" width="100%" style="float: left" />
+</p>
+
 <p>Celebrating babies and new jobs at Georgio's!<img src="{{ site.url }}{{ site.baseurl }}/images/georgios.jpeg" class="img-responsive" width="100%" style="float: left" />
 </p>
 
