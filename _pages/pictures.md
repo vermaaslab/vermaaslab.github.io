@@ -6,7 +6,11 @@ permalink: /pictures/
 ---
 
 # Group Photos
+<<<<<<< HEAD
 <p>Group photo spring 2026<img src="{{ site.url }}{{ site.baseurl }}/images/groupapril2026.png" class="img-responsive" width="100%" style="float: left" />
+</p>
+
+<p>We took a minute at the MSU Science Festival 2025 to make a new group photo!<img src="{{ site.url }}{{ site.baseurl }}/images/groupphotoscifest2025.jpg" class="img-responsive" width="100%" style="float: left" />
 </p>
 
 <p>Celebrating babies and new jobs at Georgio's!<img src="{{ site.url }}{{ site.baseurl }}/images/georgios.jpeg" class="img-responsive" width="100%" style="float: left" />

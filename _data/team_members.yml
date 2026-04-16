@@ -7,24 +7,6 @@
   education2: PhD in Biophysics with <a href="http://csbmb.beckman.illinois.edu/">Emad Tajkhorshid</a>
   education3: Director's Postdoctoral Fellow, National Renewable Energy Laboratory with <a href="https://www.nrel.gov/research/staff/michael-crowley.html">Mike Crowley</a> and <a href="https://www.nrel.gov/research/staff/gregg-beckham.html">Gregg Beckham</a>
 
-- name: Saad Raza
-  photo: saad.png
-  info: Postdoc, started Jan. 2021
-  email: razasaad@msu.edu
-  number_educ: 3
-  education1: BS Bioinformatics, COMSATS Institute of Information Technology Islamabad
-  education2: MS Bioinformatics, Quaid-i-Azam University Islamabad
-  education3: PhD in Bioinformatics, Quaid-i-Azam University Islamabad
-
-- name: Daipayan Sarkar
-  photo: daipayan.jpg
-  info: Postdoc, started May 2021
-  email: sarkarda@msu.edu
-  number_educ: 3
-  education1: BE Mechanical Engineering, University of Mumbai
-  education2: MS Mechanical Engineering, University of Texas at Arlington
-  education3: PhD in Mechanical Engineering, University of Texas at Arlington
-
 - name: Duncan Boren
   photo: duncan.jpg
   info: Graduate Student, started Feb 2022
@@ -40,3 +22,36 @@
   education1: BS Chemistry, University of Lucknow
   education2: MS Bioinformatics, Banaras Hindu University
   education3: PhD in Biophysics, Jawaharlal Nehru University
+
+- name: Jinxin Lin
+  photo: jinxin.jpeg
+  info: Graduate Student, started Aug 2024
+  email: linjinxi@msu.edu
+  number_educ: 2
+  education1: BS Applied Chemistry, Guangdong University of Technology
+  education2: MS Chemical Engineering, Guangdong University of Technology
+
+- name: Nitin Singh
+  photo: nitin.png
+  info: Postdoc, started Nov 2024
+  email: singhni8@msu.edu
+  number_educ: 3
+  education1: BT Biotechnology, Dr. APJ Abdul Kalam Technical University
+  education2: MT Chemical Engineering, Visvesvaraya National Institute of Technology
+  education3: PhD Chemical Engineering, Indian Institute of Technology Gandhinagar
+
+- name: Siva Naga Sai Damaraju
+  photo: siva.jpeg
+  info: Graduate Student, started Feb 2025
+  email: damaraj3@msu.edu
+  number_educ: 2
+  education1: BS Chemistry, Zoology, and Botany, Adikavi Nannaya University
+  education2: MS Plant Biology and Biotechnology, University of Hyderabad
+
+- name: Jon Nguyen
+  photo: jon.jpeg
+  info: Postdoc, started Aug. 2025
+  email: nguy1940@msu.edu
+  number_educ: 2
+  education1: BS in Biochemistry and Cellular and Molecular Biology, University of Tennessee
+  education2: PhD in Biochemistry with Petra Fromme and Abhishek Singharoy

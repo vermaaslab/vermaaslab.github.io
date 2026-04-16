@@ -1,12 +1,109 @@
+- title: "Jojoba LIPID DROPLET-ASSOCIATED PROTEIN 1 facilitates the efficient packaging of wax esters into lipid droplets"
+  authors: P Whitehead, S Raza, M Miklaszewska, E Hornung, C Herrfurth, R Nadella, A Clews, NM Doner, JM Dyer, R Mullen, I Feussner, JV Vermaas, K Chapman
+  description: Delightful collaboration with the Chapman lab at the University of North Texas. We now know more about plant lipid packaging!
+  link:
+    url: http://doi.org/10.1093/plcell/koaf115
+    display: The Plant Cell 37 koaf115 (2025)
+
+- title: "Molecular Modeling and Molecular Dynamics Simulation of a Packed and Intact Bacterial Microcompartment"
+  image: saadcover.jpg
+  authors: S Raza, NS Yadav, A Jussupow, CA Kerfeld, M Feig, JV Vermaas
+  description: Wicked cool simulations of a whole 11M atom BMC system! We learned alot from this research that we think we can apply to further advance catalysis within BMCs.
+  link:
+    url: https://doi.org/10.1021/acs.jpcb.5c05178
+    display: J. Phys. Chem. B 129 12811-12827 (2025)
+  highlight: 1
+  news2: This particular research made the [cover](https://pubs.acs.org/toc/jpcbfk/129/50)!
+
+- title: "Quantifying Chemically Modified Acetylation Induced Changes in the Plant Secondary Cell Wall Structure and Dynamics"
+  image: murtazacellwall.gif
+  authors: M Barkarar, D Sarkar, CG Hunt, JV Vermaas
+  description: Complementary work tracking ion diffusion within plant cell walls after acetylation.
+  link:
+    url: https://pubs.acs.org/doi/10.1021/acs.biomac.5c00391
+    display: Biomacromolecules 26 5645-5656 (2025)
+  highlight: 1
+  news2: This is a great example of undergraduate researchers doing cool work in the lab, as Murtaza has now moved on to bigger and better things!
+
+- title: "Anionic Lipids Regulate the Light-Harvesting Complex 1-Reaction Center Photocycle in Purple Bacteria"
+  authors: OC Fiebig, GP Schmidt, NS Yadav, D Wang, M Nairat, H Tang, Y Ji, V Prima, JN Sturgis, JV Vermaas, D Harris, GS Schlau-Cohen
+  description: Combined experiment and simulation study highlighting how lipids interact at the periphery of reaction centers.
+  link:
+    url: https://doi.org/10.1021/jacs.5c12301
+    display: JACS 147 36706-36716 (2025)
+  highlight: 0
+
+- title: "Identifying and quantifying membrane interactions of the protein human <i>cis</i>‐prenyltransferase"
+  image: hcispt.png
+  authors: D Boren, S Kredi, E Positselskaya, M Giladi, Y Haitin, JV Vermaas
+  description: Bringing together simulation and experiment, we identify residues involved in protein binding for human cis-prenyltransferase to the membrane.
+  link:
+    url: https://doi.org/10.1002/pro.70167
+    display: Protein Science 34 e70167 (2025)
+  highlight: 1
+  news2: This is the paper that Duncan won the Tomashow Keegstra Award for!
+
+- title: "Synthesis, function, and genetic variation of sorgoleone, the major biological nitrification inhibitor in sorghum"
+  authors: S Okumoto, B Maharjan, N Rajan, J Xi, SR Baerson, WL Rooney, MJ Tomson, DA Odeny, T Yoshihashi, JV Vermaas, GV Subbarao
+  description: Review article on sorgoleone, a natural herbicide made by sorghum.
+  link: 
+    url: https://doi.org/10.1002/csc2.70066
+    diplay: Crop Science 65 e70066 (2025)
+  highlight: 0
+
+- title: "Quantitative Measurement of Molecular Permeability to a Synthetic Bacterial Microcompartment Shell System"
+  authors: EJ Young, H Kirst, ME Dwyer, JV Vermaas, CA Kerfeld
+  description: Combination of timeseries for light emitted by encapsulated luciferases, which gives us a quantitative estimate for permeability for substrates and products. Turns out open shells missing pentameric capping units are about 50x more permeable.
+  link:
+    url: https://doi.org/10.1021/acssynbio.4c00290
+    display: ACS Synth. Biol. 14 1405-1413 (2025)
+  highlight: 0
+  news2: This paper has a really cool [cover](https://pubs.acs.org/toc/asbcd6/14/5) associated with it!
+
+- title: "Structure Characterization of Bacterial Microcompartment Shells via X-ray Scattering and Coordinate Modeling: Evidence for Adventitious Capture of Cytoplasmic Proteins"
+  authors: X Zuo, A Jussupow, NS Ponomarenko, TD Grant, TM Tefft, NS Yadav, KL Range, CY Ralston, MA TerAvest, M Sutter, CA Kerfeld, JV Vermaas, M Feig, DM Tiede
+  description: Really cool work that combines multiple lines of inquiry to show that cargo can be packed into bacterial microcompartments through adventitious means.
+  link:
+    url: https://doi.org/10.1021/acsabm.4c01621
+    display: ACS Appl. Bio Mater. 8 2090-2103 (2025)
+  highlight: 0
+
+- title: "Electrochemical cofactor recycling of bacterial microcompartments"
+  authors: M Sutter, LM Utschig, J Niklas, S Paul, DN Kahan, S Gupta, OG Poluektov, BH Ferlez, NM Tefft, MA TerAvest, DP Hickey, JV Vermaas, CY Ralston, CA Kerfeld
+  description: With a large collaborative effort, we identified a BMC that can transfer electrons across the shell to regenerate metabolic cofactors.
+  link:
+    url: https://doi.org/10.1073/pnas.2414220121
+    display: PNAS 121 e2414220121 (2024)
+  highlight: 0
+  news2: There was a [commentary](https://doi.org/10.1073/pnas.2423449122) that was published along with the paper.
+
+- title: "Increasing thermostability of the key photorespiratory enzyme glycerate 3-kinase by structure-based recombination"
+  authors: LV Roze, A Antoniak, D Sarkar, AH Liepman, M Tejera-Nieves, JV Vermaas, BJ Walker
+  description: Combining molecular simulation with activity assays, we develop more thermotolerant photorespiratory enzymes.
+  link:
+    url: https://doi.org/10.1111/pbi.14508
+    display: Plant Biotechnology Journal 23 454-466 (2025)
+  highlight: 0
+
+- title: "Atomic View of Photosynthetic Metabolite Permeability Pathways and Confinement in Synthetic Carboxysome Shells"
+  image: carboxysomecover.png
+  authors: D Sarkar, C Maffeo, M Sutter, A Aksimentiev, CA Kerfeld, JV Vermaas
+  description: Through a combination of classical molecular dynamics simulations and atomic resolution Brownian dynamics, we determine the permeability for carboxysomes to photosynthetic metabolites and the rate of leakage from the carbon concentrating mechanism in cyanobacteria.
+  link:
+    url: https://doi.org/10.1073/pnas.2402277121
+    display: PNAS 121 e2402277121 (2024)
+  highlight: 1
+  news2: Kara did a fantastic [news story](https://prl.natsci.msu.edu/news-and-events/news/2024-11-capturing-the-molecular-choreography-of-carbon-fixation.aspx) on this work!
+
 - title: "Comparative Pore Structure and Dynamics for Bacterial Microcompartment Shell Protein Assemblies in Sheets or Shells"
   image: acsomegabmc.png
   authors: S Raza, D Sarkar, LJG Chan, J Mae, M Sutter, CJ Petzold, CA Kerfeld, CY Ralston, S Gupta, JV Vermaas
   description: Comparing molecular simulation to x-ray footprinting mass spectrometry, we determine that flat and curved BMC protein assemblies have similar pore dynamics.
   link:
     url: https://doi.org/10.1021/acsomega.4c02406
-    display: ACS Omega (2024)
+    display: ACS Omega 9 35503-35514 (2024)
   highlight: 1
-  news2: This paper was selected for a cover!
+  news2: This paper was selected for a [cover](https://pubs.acs.org/toc/acsodf/9/33)! We also have a [news story](https://prl.natsci.msu.edu/news-and-events/news/2024-08-pores-of-bacterial-organelle.aspx) to go along with the paper.
 
 - title: "Adaptative survival of Aspergillus fumigatus to echinocandins arises from cell wall remodeling beyond β−1,3-glucan synthesis inhibition"
   image: natcomfig5.png
