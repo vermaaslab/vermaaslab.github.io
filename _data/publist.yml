@@ -1,3 +1,29 @@
+- title: "Quantifying Selective Metabolite Transport for the Bacterial Microcompartment from <i>Haliangium ochraceum</i> with Molecular Dynamics Simulations"
+  authors: NS Yadav, S Raza, Y Wang, JF Landa, EL Hegg, RP Hausinger, JV Vermaas
+  description: Permeability quantification for a set of small molecules through the HO shell. It was a big surprise how fast this is!
+  link:
+    url: https://doi.org/10.1039/D5NR03156G
+    display: Nanoscale 18 6092-6104 (2026)
+  highlight: 0
+
+- title: "Quantifying Membrane Structure and Dynamics during Bioproduct Production in <i>Zymomonas mobilis</i> by Molecular Simulation"
+  authors: NK Singh, JV Vermaas
+  description: Great Lakes Bioenergy Research Center work exploring how the membrane thins when solvents are added.
+  link:
+    url: https://pubs.acs.org/doi/10.1021/acs.jpcb.5c06231
+    display: J. Phys. Chem. B 130 2539-2553 (2026)
+  highlight: 0
+
+- title: "Dynamics and Structural Responses to Cis–Trans Isomerization in Bacterial Lipid Bilayers"
+  authors: S Raza, TH Sievertsen, M Jafari, JV Vermaas
+  description: A fun exploration of what happens when you flip the chirality of every single unsatuation site in a lipid bilayer! The long story short is that the unsaturation sites rarely come to the surface!
+  link:
+    url: https://pubs.acs.org/doi/10.1021/acsomega.5c04983
+    display: ACS Omega 11 449-459 (2026)
+  highlight: 1
+  image: uplipid.jpeg
+  news2: This had a [highlight](https://prl.natsci.msu.edu/news-and-events/news/2026-01-computational-analysis-lets-science-fiction-become-science-reality.aspx) by the unimitable Kara Headley!
+
 - title: "Jojoba LIPID DROPLET-ASSOCIATED PROTEIN 1 facilitates the efficient packaging of wax esters into lipid droplets"
   authors: P Whitehead, S Raza, M Miklaszewska, E Hornung, C Herrfurth, R Nadella, A Clews, NM Doner, JM Dyer, R Mullen, I Feussner, JV Vermaas, K Chapman
   description: Delightful collaboration with the Chapman lab at the University of North Texas. We now know more about plant lipid packaging!
