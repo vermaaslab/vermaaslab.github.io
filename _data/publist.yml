@@ -16,6 +16,14 @@
   highlight: 1
   image: lox3.png
 
+- title: "Screening for residues in Atg11, a central organizer of selective autophagy in yeast, important for binding with Atg9"
+  authors: CD Sherpa, P Woghiren, E Leonello, M Abdel-Khalek, BJ Schuessler, JV Vermaas, SK Backues
+  description: My contribution was some AlphaFold2 prediction work on a very large protein!
+  link:
+    url: https://www.micropublication.org/journals/biology/micropub-biology-001941
+    display: microPublication 001941 (2026)
+  highlight: 0
+
 - title: "A Conserved Sequence Insert of Fibrillins is Involved in Plastoglobule Association and Lipid Binding"
   authors: KK Shivaiah, R Kithan-Lundquist, AK Kaneshiro, DM Boren, FA Susanto, A Herrera-Tequia, JV Vermaas, PK Lundquist
   description: Working together with Peter's lab, we could determine which part of PLAFP orients towards the membrane. The binding seems to be different depending on the membrane composition, and might be related to fibrillin targeting to plastoglobules.
