@@ -1,3 +1,29 @@
+- title: "Encapsulation in a Bacterial Microcompartment Shell Improves Thermal Stability of a Glycolytic Enzyme"
+  authors: NM Tefft, NS Yadav, MC Gruenberg Cross, CD Swiggett, KN Parent, JV Vermaas, MA TerAvest
+  description: An exciting combination of experiments and computation to show how microcompartments improve catalysis and thermostability.
+  link:
+    url: https://pubs.acs.org/doi/10.1021/acssynbio.6c00074
+    display: ACS Synthetic Biology 15 1980-1992 (2026)
+  highlight: 1
+  image: ../coverart/asbcd6.2026.15.issue-5.xlargecover-2.jpg
+
+- title: "A Lipoxygenase 3 mutation reverses growth phenotypes in an Arabidopsis Plastid Lipase 3 overexpression line"
+  authors: Y Mugume, R Cook, B Hagerty, J Liu, ZB Alvord, L Danhof, JE Froehlich, JV Vermaas, C Benning
+  description: Working together with Christoph's lab, we delivered mechanistic insights into how Lox3 mutants may interfere with catalysis despite being far away from the Fe active site.
+  link:
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350738
+    display: PLOS One 21 e0350738 (2026)
+  highlight: 1
+  image: lox3.png
+
+- title: "A Conserved Sequence Insert of Fibrillins is Involved in Plastoglobule Association and Lipid Binding"
+  authors: KK Shivaiah, R Kithan-Lundquist, AK Kaneshiro, DM Boren, FA Susanto, A Herrera-Tequia, JV Vermaas, PK Lundquist
+  description: Working together with Peter's lab, we could determine which part of PLAFP orients towards the membrane. The binding seems to be different depending on the membrane composition, and might be related to fibrillin targeting to plastoglobules.
+  link:
+    url: https://doi.org/10.1093/pcp/pcag047
+    display: Plant and Cell Physiology pcag047 (2026)
+  highlight: 0
+
 - title: "Quantifying Selective Metabolite Transport for the Bacterial Microcompartment from <i>Haliangium ochraceum</i> with Molecular Dynamics Simulations"
   authors: NS Yadav, S Raza, Y Wang, JF Landa, EL Hegg, RP Hausinger, JV Vermaas
   description: Permeability quantification for a set of small molecules through the HO shell. It was a big surprise how fast this is!
