@@ -13,9 +13,31 @@ permalink: /publications/
 
 ## Highlights
 
-{% bibliography -q @*[highlight=1] -T highlight.html %}
+<style>
+.pub-highlights ol.bibliography,
+.pub-fulllist ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+}
+.pub-highlights ol.bibliography {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+@media (max-width: 768px) {
+  .pub-highlights ol.bibliography {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="pub-highlights">
+{% bibliography -q @*[highlight=1] -T highlight %}
+</div>
 
 <p> &nbsp; </p>
 ## Full List
 
-{% bibliography -T full.html %}
+<div class="pub-fulllist">
+{% bibliography -T full %}
+</div>

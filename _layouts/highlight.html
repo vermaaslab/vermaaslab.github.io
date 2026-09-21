@@ -1,0 +1,11 @@
+---
+---
+<div class="well">
+  <pubtit>{{ entry.title }}</pubtit>
+  {% if entry.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ entry.image }}" class="img-responsive" width="33%" style="float: left" />{% endif %}
+  {% if entry.abstract %}<p>{{ entry.abstract }}</p>{% endif %}
+  <p><em>{{ reference }}</em></p>
+  {% if entry.url %}<p><strong><a href="{{ entry.url }}">{{ entry.journal }}{% if entry.volume %} {{ entry.volume }}{% endif %}{% if entry.pages %} {{ entry.pages }}{% endif %} ({{ entry.year }})</a></strong></p>{% endif %}
+  {% if entry.news1 %}<p class="text-danger"><strong>{{ entry.news1 | markdownify }}</strong></p>{% endif %}
+  {% if entry.news2 %}<p>{{ entry.news2 | markdownify }}</p>{% endif %}
+</div>

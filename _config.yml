@@ -49,7 +49,7 @@ scholar:
   source: ./_bibliography
   bibliography: references.bib
 
-  bibliography_template: full.html
+  bibliography_template: full
 
   sort_by: year
   order: descending
