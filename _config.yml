@@ -27,7 +27,35 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Explicit plugin list -- previously activated implicitly by the
+# "github-pages" gem; now that the site builds via GitHub Actions
+# (see .github/workflows/build-deploy.yml) these must be named here.
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-scholar
 
+
+
+# Publications bibliography (jekyll-scholar)
+# references.bib is auto-exported by Zotero + Better BibTeX from the
+# "MyPapers" collection -- see _bibliography/README.md for how to add a
+# paper and how to flag highlight/image/news fields via Zotero's Extra field.
+scholar:
+  style: apa
+  locale: en
+
+  source: ./_bibliography
+  bibliography: references.bib
+
+  bibliography_template: full.html
+
+  sort_by: year
+  order: descending
+
+  first_name_initials: true
+  use_raw_bibtex_entry: true
 
 # Markdown Processing
 kramdown:

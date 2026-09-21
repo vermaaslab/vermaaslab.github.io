@@ -1,0 +1,29 @@
+{% assign number_printed = 0 %}
+{% for entry in entries %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>{{ entry.title }}</pubtit>
+  {% if entry.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ entry.image }}" class="img-responsive" width="33%" style="float: left" />{% endif %}
+  {% if entry.abstract %}<p>{{ entry.abstract }}</p>{% endif %}
+  <p><em>{{ entry.reference }}</em></p>
+  {% if entry.url %}<p><strong><a href="{{ entry.url }}">{{ entry.journal }}{% if entry.volume %} {{ entry.volume }}{% endif %}{% if entry.pages %} {{ entry.pages }}{% endif %} ({{ entry.year }})</a></strong></p>{% endif %}
+  {% if entry.news1 %}<p class="text-danger"><strong>{{ entry.news1 | markdownify }}</strong></p>{% endif %}
+  {% if entry.news2 %}<p>{{ entry.news2 | markdownify }}</p>{% endif %}
+ </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+{% endfor %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
