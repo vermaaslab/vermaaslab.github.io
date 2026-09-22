@@ -1,9 +1,9 @@
 ---
 ---
-{% if entry.doi %}{% assign pub_link = "https://doi.org/" | append: entry.doi %}{% elsif entry.url %}{% assign pub_link = entry.url %}{% else %}{% assign pub_link = nil %}{% endif %}
+{% if entry.doi %}{% assign pub_link = "https://doi.org/" | append: entry.doi %}{% assign reference_display = reference | remove: pub_link | rstrip %}{% elsif entry.url %}{% assign pub_link = entry.url %}{% assign reference_display = reference %}{% else %}{% assign pub_link = nil %}{% assign reference_display = reference %}{% endif %}
 <div class="pub-entry">
   {{ entry.title }} <br />
-  {% if pub_link %}<a href="{{ pub_link }}"><em>{{ reference }}</em></a>{% else %}<em>{{ reference }}</em>{% endif %}
+  {% if pub_link %}<a href="{{ pub_link }}"><em>{{ reference_display }}</em></a>{% else %}<em>{{ reference_display }}</em>{% endif %}
   {% if entry.news1 %} <span class="text-danger"><strong>{{ entry.news1 | markdownify }}</strong></span>{% endif %}
   {% if entry.news2 %} <br /><small>{{ entry.news2 | markdownify }}</small>{% endif %}
 </div>
