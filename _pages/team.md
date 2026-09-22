@@ -18,7 +18,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% assign img_path = "images/teampic/" | append: member.photo %}{% include responsive_img.html path=img_path alt=member.name class="img-responsive" style="width: 25%; float: left" sizes="(max-width: 768px) 40vw, 15vw" %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
@@ -135,7 +135,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% assign img_path = "images/teampic/" | append: member.photo %}{% include responsive_img.html path=img_path alt=member.name class="img-responsive" style="width: 25%; float: left" sizes="(max-width: 768px) 40vw, 15vw" %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
   <ul style="overflow: hidden">

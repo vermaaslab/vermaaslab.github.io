@@ -7,7 +7,7 @@
 BIBSRC ?= $(HOME)/Documents/Zotero/MyPapers.bib
 BIBDST := _bibliography/references.bib
 
-.PHONY: freshbib serve build clean
+.PHONY: freshbib images serve build clean
 
 ## Copy the latest Zotero/Better BibTeX export into the site's bibliography.
 freshbib:
@@ -16,6 +16,13 @@ freshbib:
 	python3 scripts/sanitize_bib.py "$(BIBDST)"
 	@echo "Updated $(BIBDST) from $(BIBSRC)"
 	@echo "Next: git add $(BIBDST) && git commit -m 'Refresh bibliography' && git push"
+
+## Generate responsive-image variants (multiple widths + WebP) for any new
+## or changed photo under images/teampic and images/pubpic, and refresh the
+## _data/img_variants.yml manifest the responsive_img.html include reads.
+## Run this after adding/replacing a team or publication photo, before committing.
+images:
+	python3 scripts/resize_images.py
 
 ## Build the site locally (requires bundle install once: `bundle install`).
 build:

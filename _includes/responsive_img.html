@@ -1,0 +1,36 @@
+{% comment %}
+  Responsive image include, backed by scripts/resize_images.py and the
+  manifest it writes to _data/img_variants.yml.
+
+  Usage:
+    {% include responsive_img.html path="images/teampic/marcus.jpg" alt="..." class="img-responsive" style="float: left" sizes="25vw" %}
+
+  Falls back to a plain <img> if the path has no entry in the manifest
+  (e.g. an image that hasn't been through `make images` yet).
+{% endcomment %}
+{% assign info = site.data.img_variants[include.path] %}
+{% assign parts = include.path | split: '.' %}
+{% assign ext = parts | last %}
+{% assign dotext = '.' | append: ext %}
+{% assign stem = include.path | remove: dotext %}
+{% assign sizes = include.sizes | default: "100vw" %}
+{% if info %}
+{% assign webp_srcset = "" %}
+{% for w in info.variants %}
+  {% assign entry = site.baseurl | append: "/" | append: stem | append: "-" | append: w | append: "w.webp " | append: w | append: "w" %}
+  {% if forloop.first %}{% assign webp_srcset = entry %}{% else %}{% assign webp_srcset = webp_srcset | append: ", " | append: entry %}{% endif %}
+{% endfor %}
+{% assign fallback_srcset = "" %}
+{% for w in info.variants %}
+  {% assign entry = site.baseurl | append: "/" | append: stem | append: "-" | append: w | append: "w" | append: dotext | append: " " | append: w | append: "w" %}
+  {% if forloop.first %}{% assign fallback_srcset = entry %}{% else %}{% assign fallback_srcset = fallback_srcset | append: ", " | append: entry %}{% endif %}
+{% endfor %}
+{% assign original_entry = site.baseurl | append: "/" | append: include.path | append: " " | append: info.width | append: "w" %}
+{% if fallback_srcset == "" %}{% assign fallback_srcset = original_entry %}{% else %}{% assign fallback_srcset = fallback_srcset | append: ", " | append: original_entry %}{% endif %}
+<picture>
+  {% if webp_srcset != "" %}<source type="image/webp" srcset="{{ webp_srcset }}" sizes="{{ sizes }}">{% endif %}
+  <img src="{{ site.baseurl }}/{{ include.path }}" srcset="{{ fallback_srcset }}" sizes="{{ sizes }}" alt="{{ include.alt }}"{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %} width="{{ info.width }}" height="{{ info.height }}" loading="lazy">
+</picture>
+{% else %}
+<img src="{{ site.baseurl }}/{{ include.path }}" alt="{{ include.alt }}"{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %} loading="lazy">
+{% endif %}
