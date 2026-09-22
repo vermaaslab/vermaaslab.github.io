@@ -13,6 +13,7 @@ BIBDST := _bibliography/references.bib
 freshbib:
 	@test -f "$(BIBSRC)" || (echo "No bib file at $(BIBSRC) -- pass BIBSRC=/path/to/MyPapers.bib" && exit 1)
 	cp "$(BIBSRC)" "$(BIBDST)"
+	python3 scripts/sanitize_bib.py "$(BIBDST)"
 	@echo "Updated $(BIBDST) from $(BIBSRC)"
 	@echo "Next: git add $(BIBDST) && git commit -m 'Refresh bibliography' && git push"
 

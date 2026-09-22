@@ -54,9 +54,26 @@ Standard BibTeX fields (`title`, `author`, `journal`, `volume`, `pages`, `year`,
 plain custom BibTeX fields (`abstract`, `image`, `highlight`, `news1`, `news2`)
 that the two custom rendering templates read:
 
-- `_bibliography/highlight.html` -- two-column "Highlights" cards (used for
-  entries with `highlight = 1`)
-- `_bibliography/full.html` -- the plain "Full List" entries (used for everything)
+- `_layouts/highlight.html` -- "Highlights" cards, laid out as a CSS grid
+  (used for entries with `highlight = 1`)
+- `_layouts/full.html` -- the plain "Full List" entries (used for everything)
+
+These live under `_layouts/`, not `_bibliography/` -- jekyll-scholar's
+`bibliography_template`/`-T` option only resolves against Jekyll's layout
+registry (built from `_layouts/`), so a template placed anywhere else is
+silently ignored (it prints its own filename as literal text instead).
+
+## Bib sanitization
+
+Publisher/CrossRef metadata occasionally contains raw formatting artifacts
+(e.g. HTML-ish subscript tags embedded in a title) that Better BibTeX escapes
+for LaTeX safety on export, but that decode back into broken/unclosed HTML
+once run through our (non-LaTeX) rendering pipeline. `make freshbib` runs
+`scripts/sanitize_bib.py` on the copied file automatically to strip known
+offenders (BibTeX's `\relax` protective brace, LaTeX math-mode-escaped angle
+brackets). If a future paper's title/author renders oddly, check the raw
+`.bib` entry for stray backslash commands or escaped brackets and extend
+that script.
 
 ## Draft abstracts
 
