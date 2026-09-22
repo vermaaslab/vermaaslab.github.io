@@ -20,7 +20,15 @@ import sys
 
 from PIL import Image
 
-DEFAULT_DIRS = ["images/teampic", "images/pubpic"]
+DEFAULT_DIRS = [
+    "images",  # top-level only (os.listdir is non-recursive) -- group photos etc.
+    "images/teampic",
+    "images/pubpic",
+    "images/coverart",
+    "images/newspic",
+    "images/eventspic",
+    "images/carousel",
+]
 WIDTHS = [400, 800, 1600]
 RASTER_EXTS = {".jpg", ".jpeg", ".png"}
 VARIANT_RE = re.compile(r"-(\d+)w$")

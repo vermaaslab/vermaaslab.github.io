@@ -3,7 +3,7 @@
 {% if entry.doi %}{% assign pub_link = "https://doi.org/" | append: entry.doi %}{% elsif entry.url %}{% assign pub_link = entry.url %}{% else %}{% assign pub_link = nil %}{% endif %}
 <div class="well">
   <pubtit>{{ entry.title }}</pubtit>
-  {% if entry.image %}{% assign img_path = "images/pubpic/" | append: entry.image %}{% include responsive_img.html path=img_path alt=entry.title class="img-responsive" style="width: 33%; float: left" sizes="(max-width: 768px) 50vw, 20vw" %}{% endif %}
+  {% if entry.image %}{% if entry.image contains "/" %}{% assign img_path = entry.image | replace: "../", "images/" %}{% else %}{% assign img_path = "images/pubpic/" | append: entry.image %}{% endif %}{% include responsive_img.html path=img_path alt=entry.title class="img-responsive" style="width: 33%; float: left" sizes="(max-width: 768px) 50vw, 20vw" %}{% endif %}
   {% if entry.abstract %}<p>{{ entry.abstract }}</p>{% endif %}
   <p>{% if pub_link %}<a href="{{ pub_link }}"><em>{{ reference }}</em></a>{% else %}<em>{{ reference }}</em>{% endif %}</p>
   {% if entry.news1 %}<p class="text-danger"><strong>{{ entry.news1 | markdownify }}</strong></p>{% endif %}

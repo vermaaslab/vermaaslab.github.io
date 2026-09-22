@@ -13,20 +13,20 @@ Specifically, we use molecular simulation to focus on atomic-scale interactions 
 
 Here are some themes in our current research:
 <div>
-**Lipid membranes** ![]({{ site.url }}{{ site.baseurl }}/images/carousel/photosyntheticreactioncenterandcofactors-sm.jpeg){: style="width: 250px; float: right; margin: 0px  10px"}
+**Lipid membranes** {% include responsive_img.html path="images/carousel/photosyntheticreactioncenterandcofactors-sm.jpeg" alt="Photosynthetic reaction center and cofactors" style="width: 250px; float: right; margin: 0px 10px" sizes="250px" %}
 Lipid bilayers are the fundamental biological structure that partitions cellular structures, creating gradients across the lipid leaflets that drive cellular metabolism and transport processes.
 Our interest is in how membranes influence protein function, such as by binding to specific sites on proteins as above, as well as influence metabolic fluxes within cells by controlling transport.
 To do this, we create atomic models using classical molecular simulation approaches, and carry out biased and unbiased molecular simulations to answer our specific molecular hypotheses.
 </div>
 <div>
 **Cellular structures and organelles** 
-![]({{ site.url }}{{ site.baseurl }}/images/carousel/carboxysomesurface-sm.jpeg){: style="width: 250px; float: right; margin: 0px  10px"}
+{% include responsive_img.html path="images/carousel/carboxysomesurface-sm.jpeg" alt="Carboxysome surface" style="width: 250px; float: right; margin: 0px 10px" sizes="250px" %}
 Similarly, we want to understand how structure and function are coupled together across biology, such as in the carboxysome shown here, or in larger biomass assemblies.
 This will allow for these systems to be engineered, either for enhanced degradation into industrial products, or to repurpose the system to generate alternative products.
 </div>
 <div>
 **New simulation methods**
-![]({{ site.url }}{{ site.baseurl }}/images/carousel/lignindeconstruction3.gif){: style="width: 250px; float: right; margin: 0px  10px"}
+{% include responsive_img.html path="images/carousel/lignindeconstruction3.gif" alt="Lignin deconstruction simulation" style="width: 250px; float: right; margin: 0px 10px" %}
 Underlying these structural studies, we also want to advance new simulation techniques and incorporate new simulation methods into our research.
 One such example is by using machine-learned force fields to break apart lignin, which might be applicable to catalysis in other systems.
 </div>
