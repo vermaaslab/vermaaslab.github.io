@@ -16,7 +16,7 @@ Here are some themes in our current research:
 **Photosynthetic membranes and light-harvesting** {% include responsive_img.html path="images/carousel/photosyntheticreactioncenterandcofactors-sm.jpeg" alt="Photosynthetic reaction center and cofactors" style="width: 250px; float: right; margin: 0px 10px" sizes="250px" %}
 We use molecular simulation to understand how the lipid environment shapes the structure and efficiency of photosynthetic membrane complexes. Some recent work stretches from light-harvesting proteins in plant thylakoids to reaction centers in purple bacteria and PSI-based biohybrid systems.
 This work explicitly includes how those membranes adapt to environmental stress such as heat and freezing.
-Our work in the Plant Research Lab work is done in close collaboration with experimental groups doing spectroscopy, structural biology, and plant genetics, connecting our molecular-scale models to measurable photosynthetic function and stress tolerance.
+Our work in the Plant Research Lab is done in close collaboration with experimental groups doing spectroscopy, structural biology, and plant genetics, connecting our molecular-scale models to measurable photosynthetic function and stress tolerance.
 </div>
 <div>
 **Bacterial microcompartments**
