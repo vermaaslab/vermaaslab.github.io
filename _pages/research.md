@@ -13,16 +13,23 @@ Specifically, we use molecular simulation to focus on atomic-scale interactions 
 
 Here are some themes in our current research:
 <div>
-**Lipid membranes** {% include responsive_img.html path="images/carousel/photosyntheticreactioncenterandcofactors-sm.jpeg" alt="Photosynthetic reaction center and cofactors" style="width: 250px; float: right; margin: 0px 10px" sizes="250px" %}
-Lipid bilayers are the fundamental biological structure that partitions cellular structures, creating gradients across the lipid leaflets that drive cellular metabolism and transport processes.
-Our interest is in how membranes influence protein function, such as by binding to specific sites on proteins as above, as well as influence metabolic fluxes within cells by controlling transport.
-To do this, we create atomic models using classical molecular simulation approaches, and carry out biased and unbiased molecular simulations to answer our specific molecular hypotheses.
+**Photosynthetic membranes and light-harvesting** {% include responsive_img.html path="images/carousel/photosyntheticreactioncenterandcofactors-sm.jpeg" alt="Photosynthetic reaction center and cofactors" style="width: 250px; float: right; margin: 0px 10px" sizes="250px" %}
+We use molecular simulation to understand how the lipid environment shapes the structure and efficiency of photosynthetic membrane complexes. Some recent work stretches from light-harvesting proteins in plant thylakoids to reaction centers in purple bacteria and PSI-based biohybrid systems.
+This work explicitly includes how those membranes adapt to environmental stress such as heat and freezing.
+Our work in the Plant Research Lab work is done in close collaboration with experimental groups doing spectroscopy, structural biology, and plant genetics, connecting our molecular-scale models to measurable photosynthetic function and stress tolerance.
 </div>
 <div>
-**Cellular structures and organelles** 
+**Bacterial microcompartments**
 {% include responsive_img.html path="images/carousel/carboxysomesurface-sm.jpeg" alt="Carboxysome surface" style="width: 250px; float: right; margin: 0px 10px" sizes="250px" %}
-Similarly, we want to understand how structure and function are coupled together across biology, such as in the carboxysome shown here, or in larger biomass assemblies.
-This will allow for these systems to be engineered, either for enhanced degradation into industrial products, or to repurpose the system to generate alternative products.
+Bacterial microcompartments, such as the carboxysome shown here, are protein shells that enclose metabolic enzymes to concentrate reactants and shield sensitive chemistry from the rest of the cell.
+We use molecular simulation to determine how these shells selectively admit and exclude metabolites, and how that selectivity might be redesigned to enable microcompartment engineering for programmable nanoscale bioreactors.
+</div>
+<div>
+**Plant cell walls and secondary metabolites**
+{% include responsive_img.html path="images/carousel/bpsimagecontest-sm.jpeg" alt="Lipid bilayer permeability to small molecules" style="width: 250px; float: right; margin: 0px 10px" sizes="250px" %}
+Plant cell walls and the metabolites that pass through them govern how biomass resists or permits deconstruction, from lignin's role in biomass recalcitrance to how membranes admit terpenoids, sorgoleone, and other lignin-derived aromatics.
+We extend this same cell-wall focus to microbial systems under stress, including how fungal pathogens remodel their cell walls in response to oxidative or antifungal challenge.
+Together, this work informs both more efficient biomass conversion and a better understanding of cell-wall-mediated stress responses.
 </div>
 <div>
 **New simulation methods**
