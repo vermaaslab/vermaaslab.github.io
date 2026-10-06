@@ -81,9 +81,35 @@ def process_image(path, manifest):
         manifest[path] = {"width": orig_w, "height": orig_h, "variants": generated}
 
 
+def load_existing_manifest():
+    """Parse the manifest file we previously wrote, so a scoped run (e.g.
+    `resize_images.py images/teampic`) merges into it instead of discarding
+    every entry for directories not passed on this invocation."""
+    manifest = {}
+    if not os.path.exists(MANIFEST_PATH):
+        return manifest
+    current_path = None
+    with open(MANIFEST_PATH) as f:
+        for line in f:
+            line = line.rstrip("\n")
+            if not line or line.startswith("#"):
+                continue
+            if not line.startswith(" "):
+                current_path = line.rstrip(":")
+                manifest[current_path] = {}
+            elif current_path and line.strip().startswith("width:"):
+                manifest[current_path]["width"] = int(line.split(":", 1)[1].strip())
+            elif current_path and line.strip().startswith("height:"):
+                manifest[current_path]["height"] = int(line.split(":", 1)[1].strip())
+            elif current_path and line.strip().startswith("variants:"):
+                raw = line.split(":", 1)[1].strip().strip("[]")
+                manifest[current_path]["variants"] = [int(x) for x in raw.split(",") if x.strip()]
+    return manifest
+
+
 def main():
     dirs = sys.argv[1:] or DEFAULT_DIRS
-    manifest = {}
+    manifest = load_existing_manifest()
     for d in dirs:
         if not os.path.isdir(d):
             continue

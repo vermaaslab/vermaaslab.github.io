@@ -255,6 +255,10 @@ images/teampic/nitin.png:
   width: 196
   height: 195
   variants: []
+images/teampic/olayinka.jpg:
+  width: 600
+  height: 800
+  variants: [400]
 images/teampic/placeholder.jpg:
   width: 200
   height: 200
