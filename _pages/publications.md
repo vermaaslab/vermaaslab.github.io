@@ -24,6 +24,12 @@ permalink: /publications/
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
 }
+.pub-highlights .well {
+  /* Contain the floated cover image within its own card -- without this,
+     a card with a short abstract/citation doesn't grow tall enough to
+     clear the float, and the image pokes out below the card's border. */
+  overflow: auto;
+}
 @media (max-width: 768px) {
   .pub-highlights ol.bibliography {
     grid-template-columns: 1fr;
