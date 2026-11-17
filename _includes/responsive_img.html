@@ -14,6 +14,15 @@
 {% assign dotext = '.' | append: ext %}
 {% assign stem = include.path | remove: dotext %}
 {% assign sizes = include.sizes | default: "100vw" %}
+{% comment %}
+  height: auto is a baseline, placed before include.style so a caller that
+  explicitly sets height (later in the same style attribute) still wins.
+  Without this, a caller-set CSS width combined with the width/height HTML
+  attributes below (the image's native pixel size) can render squashed or
+  stretched in browsers that don't infer aspect-ratio from those attributes.
+{% endcomment %}
+{% assign img_style = "height: auto;" %}
+{% if include.style %}{% assign img_style = img_style | append: " " | append: include.style %}{% endif %}
 {% if info %}
 {% assign webp_srcset = "" %}
 {% for w in info.variants %}
@@ -29,8 +38,8 @@
 {% if fallback_srcset == "" %}{% assign fallback_srcset = original_entry %}{% else %}{% assign fallback_srcset = fallback_srcset | append: ", " | append: original_entry %}{% endif %}
 <picture>
   {% if webp_srcset != "" %}<source type="image/webp" srcset="{{ webp_srcset }}" sizes="{{ sizes }}">{% endif %}
-  <img src="{{ site.baseurl }}/{{ include.path }}" srcset="{{ fallback_srcset }}" sizes="{{ sizes }}" alt="{{ include.alt }}"{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %} width="{{ info.width }}" height="{{ info.height }}" loading="lazy">
+  <img src="{{ site.baseurl }}/{{ include.path }}" srcset="{{ fallback_srcset }}" sizes="{{ sizes }}" alt="{{ include.alt }}"{% if include.class %} class="{{ include.class }}"{% endif %} style="{{ img_style }}" width="{{ info.width }}" height="{{ info.height }}" loading="lazy">
 </picture>
 {% else %}
-<img src="{{ site.baseurl }}/{{ include.path }}" alt="{{ include.alt }}"{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %} loading="lazy">
+<img src="{{ site.baseurl }}/{{ include.path }}" alt="{{ include.alt }}"{% if include.class %} class="{{ include.class }}"{% endif %} style="{{ img_style }}" loading="lazy">
 {% endif %}
